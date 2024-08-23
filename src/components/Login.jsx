@@ -72,7 +72,7 @@ export default function Login() {
 
   return (
     <div>
-      <h2>Login NOW:</h2>
+      <h2 className='my-5'>Login NOW:</h2>
 
       {msg ? <div className=" w-1/2 m-auto flex items-center p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
         <svg className="flex-shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
