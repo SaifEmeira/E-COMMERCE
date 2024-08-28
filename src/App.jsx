@@ -23,6 +23,8 @@ export default function App() {
     path:'/',element:<Layout/>,children:[
       {index:true,element:<ProtectedRoute><Home/></ProtectedRoute> },
       {path:'/login',element:<Login/>},
+      {path:'/allorders',element:<Home/>},
+
       {path:'/register',element:<Register/>},
       {path:'/product',element:<ProtectedRoute><Product/></ProtectedRoute>},
       {path:'/productsdetails/:id/:categoryId',element:<ProtectedRoute><ProductsDetails/></ProtectedRoute>},

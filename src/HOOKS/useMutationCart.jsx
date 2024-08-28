@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+  
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { clearCart } from '../APIS/CartApi';
 
