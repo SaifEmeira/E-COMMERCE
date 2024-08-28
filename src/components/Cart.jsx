@@ -145,8 +145,8 @@ export default function Cart() {
 
               </tbody>
             </table>
-<PaymentModal cartId={data?.data?._id}></PaymentModal>
-</div></> :
+
+</div> <PaymentModal cartId={data?.data?._id}></PaymentModal></> :
 
 <div className=' py-10 w-[30%] m-auto '>
 
